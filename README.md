@@ -1,4 +1,4 @@
-Projeto criado para o intuito de estudar sobre o docker
+Projeto criado com o intuito de estudar sobre o docker
 
 Para o container funcionar corretamente, é preciso executar o build antes de 
 rodar o comando "docker compose up -d" (o -d força o build da imagem), pois ele espera que a pasta que os arquivos são compilados, exista no projeto
