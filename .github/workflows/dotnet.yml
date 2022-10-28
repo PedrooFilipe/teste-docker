@@ -25,4 +25,4 @@ jobs:
     - name: Publish
       run: dotnet publish -c Release
     - name: copy
-      run: ROBOCOPY C:\actions-runner\_work\teste-docker\teste-docker\teste-docker\bin\Release\net5.0\publish C:\projects\teste-docker
+      run: XCOPY C:\actions-runner\_work\teste-docker\teste-docker\teste-docker\bin\Release\net5.0\publish C:\projects\teste-docker
