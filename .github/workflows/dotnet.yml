@@ -24,5 +24,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Publish
       run: dotnet publish -c Release
-    - name: copy
+    - name: Copy First
       run: XCOPY C:\actions-runner\_work\teste-docker\teste-docker\teste-docker\bin\Release\net5.0\publish C:\projects\teste-docker /Y
+    - name: Copy Second
+      run: XCOPY C:\actions-runner\_work\teste-docker\teste-docker\teste-docker\bin\Release\net5.0\publish C:\projects\teste-docker2 /Y
