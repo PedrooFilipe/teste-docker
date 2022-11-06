@@ -1,4 +1,4 @@
 teste-docker/bin
 teste-docker/obj
-.vs/
-.idea/
+teste-docker/.vs/
+teste-docker/.idea/
